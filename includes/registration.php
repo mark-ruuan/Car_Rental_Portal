@@ -70,7 +70,7 @@ return true;
                   <input type="text" class="form-control" name="fullname" placeholder="Full Name" required="required">
                 </div>
                       <div class="form-group">
-                  <input type="text" class="form-control" name="mobileno" placeholder="Mobile Number"  pattern="(.){10,10}" maxlength="10" "required="required">
+                  <input type="text" class="form-control" name="mobileno" placeholder="Mobile Number"  pattern="(.){10,10}" maxlength="10" required="required">
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control" name="emailid" id="emailid" onBlur="checkAvailability()" placeholder="Email Address" required="required">
